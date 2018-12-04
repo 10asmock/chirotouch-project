@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>Adam's Grocery List</title>
+  <meta name="description" content="polymer-3 description">
+
+  <link rel="manifest" href="/manifest.json">
+
+  <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+  <script src="../../test-fixture/test-fixture-mocha.js"></script>
+  <script type="module" src="src/index.js"></script>
+</head>
+
+<body>
+  <h1 class="grocery-list">Grocery List</h1>
+  <my-todo></my-todo>
+</body>
+<style>
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.4em;
+    background: #f5f5f5;
+    color: #4d4d4d;
+    min-width: 230px;
+    max-width: 550px;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+
+  h1 {
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(175, 47, 47, 0.15);
+  }
+</style>
+
+</html>
