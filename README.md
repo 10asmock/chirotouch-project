@@ -1,8 +1,8 @@
 # ToDo Application
 
+## About
 
-
-## Install the Polymer-CLI
+## How to Use
 
 First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your application locally.
 
