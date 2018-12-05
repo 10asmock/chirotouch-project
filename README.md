@@ -16,9 +16,11 @@ Run the following commands so all elements are downloaded:
 
 - ```npm install```
 
+Once all elements are downloaded, enter ```polymer serve``` to run the application locally.
+
 ## Building Your Application
 
-This will create builds of your application in the `build/` directory, optimized to be served in production. You can then serve the built versions by giving `polymer serve` a folder to serve from:
+This will create builds of your application in the `build/` directory, optimized to be served in production. You can then serve the built versions by giving `polymer serve` in ```chirotouch-project/polymer3```.
 
 ## Running Tests
 
